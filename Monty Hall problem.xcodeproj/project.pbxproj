@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D91BD538262B073400E11C4F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D91BD537262B073400E11C4F /* main.cpp */; };
-		D91BD541262B074E00E11C4F /* libbangtal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D91BD540262B074E00E11C4F /* libbangtal.dylib */; };
-		D91BD549262B082000E11C4F /* libbangtal.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D91BD540262B074E00E11C4F /* libbangtal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D91BD54C262B14B000E11C4F /* scene1.png in Sources */ = {isa = PBXBuildFile; fileRef = D91BD54B262B14B000E11C4F /* scene1.png */; };
 		D91BD54E262B163D00E11C4F /* start.png in Sources */ = {isa = PBXBuildFile; fileRef = D91BD54D262B163D00E11C4F /* start.png */; };
 		D91BD555262B333700E11C4F /* Hidden_Agenda.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = D91BD553262B333700E11C4F /* Hidden_Agenda.mp3 */; };
@@ -47,6 +45,8 @@
 		D91BD59A262C33A600E11C4F /* scene9.png in Sources */ = {isa = PBXBuildFile; fileRef = D91BD599262C33A600E11C4F /* scene9.png */; };
 		D91BD59C262C524100E11C4F /* scene10.png in Sources */ = {isa = PBXBuildFile; fileRef = D91BD59B262C524100E11C4F /* scene10.png */; };
 		D91BD59E262C543E00E11C4F /* end.png in Sources */ = {isa = PBXBuildFile; fileRef = D91BD59D262C543E00E11C4F /* end.png */; };
+		D91BD5A0262C69C500E11C4F /* libbangtal.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D91BD59F262C69C500E11C4F /* libbangtal.dylib */; };
+		D91BD5A1262C69C500E11C4F /* libbangtal.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = D91BD59F262C69C500E11C4F /* libbangtal.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D91BD549262B082000E11C4F /* libbangtal.dylib in Embed Libraries */,
+				D91BD5A1262C69C500E11C4F /* libbangtal.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,7 +75,6 @@
 /* Begin PBXFileReference section */
 		D91BD534262B073400E11C4F /* Monty Hall problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Monty Hall problem"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91BD537262B073400E11C4F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D91BD540262B074E00E11C4F /* libbangtal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbangtal.dylib; path = ../../../../Library/Frameworks/Bangtal/lib/Release/libbangtal.dylib; sourceTree = "<group>"; };
 		D91BD54B262B14B000E11C4F /* scene1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scene1.png; path = Images/scene1.png; sourceTree = "<group>"; };
 		D91BD54D262B163D00E11C4F /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start.png; path = Images/start.png; sourceTree = "<group>"; };
 		D91BD553262B333700E11C4F /* Hidden_Agenda.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hidden_Agenda.mp3; path = Sound/Hidden_Agenda.mp3; sourceTree = "<group>"; };
@@ -114,6 +113,7 @@
 		D91BD599262C33A600E11C4F /* scene9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scene9.png; path = Images/scene9.png; sourceTree = "<group>"; };
 		D91BD59B262C524100E11C4F /* scene10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scene10.png; path = Images/scene10.png; sourceTree = "<group>"; };
 		D91BD59D262C543E00E11C4F /* end.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = end.png; path = Images/end.png; sourceTree = "<group>"; };
+		D91BD59F262C69C500E11C4F /* libbangtal.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbangtal.dylib; path = ../../../../../Library/Frameworks/Bangtal/lib/Release/libbangtal.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91BD541262B074E00E11C4F /* libbangtal.dylib in Frameworks */,
+				D91BD5A0262C69C500E11C4F /* libbangtal.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +194,7 @@
 		D91BD53F262B074E00E11C4F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D91BD540262B074E00E11C4F /* libbangtal.dylib */,
+				D91BD59F262C69C500E11C4F /* libbangtal.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
