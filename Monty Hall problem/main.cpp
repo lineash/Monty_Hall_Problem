@@ -654,7 +654,7 @@ void timerCallback(TimerID timerF) //타이머 콜백
 {
     if(timerF == startbgm)
     {
-        playSound(sound1);
+        //playSound(sound1);
     }
     if(timerF == Trigger)
     {
